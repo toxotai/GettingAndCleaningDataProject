@@ -11,7 +11,7 @@ Version 1.0
 
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
-DITEN - Università degli Studi di Genova.
+DITEN - Universitï¿½ degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
@@ -77,15 +77,25 @@ Activity			LAYING			Activity type
 				WALKING_UPSTAIRS
 
 tBodyAcc-mean()-X		[-1,1]
+
 tBodyAcc-mean()-Y		[-1,1]
+
 tBodyAcc-mean()-Z		[-1,1]
+
 tBodyAcc-std()-X		[-1,1]
+
 tBodyAcc-std()-Y		[-1,1]
+
 tBodyAcc-std()-Z		[-1,1]
+
 tGravityAcc-mean()-X		[-1,1]
+
 tGravityAcc-mean()-Y		[-1,1]
+
 tGravityAcc-mean()-Z		[-1,1]
+
 tGravityAcc-std()-X		[-1,1]            
+
 tGravityAcc-std()-Y		[-1,1]
 tGravityAcc-std()-Z		[-1,1]
 tBodyAccJerk-mean()-X		[-1,1]
