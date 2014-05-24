@@ -1,8 +1,8 @@
-General information:
+GENERAL INFORMATION
 -----------------------
 
 After downloading and executing script (see readMe.md file for details) you will get result.txt file with processed and cleaned data set.
-The source data set is UCI HAR dataset. You need to place this dataset to your working directory in order to get the result.
+The original data set is UCI HAR dataset [1]. You need to place this dataset to your working directory in order to get the result.
 
 Here is some information about UCI HAR dataset: 
 
@@ -58,3 +58,100 @@ For more information about this dataset contact: activityrecognition@smartlab.ws
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
+DATA COLLECTION DESCRIPTION
+---------------
+
+result.txt file contain 180 rows and 81 columns: each row coresponds to one person and one activity tipe.
+First two columns stand for subject id and activity. Remaining cols stand for average for 79 features.
+
+CODE BOOK
+---------------
+
+Subject.Id			1...30			Unique id for each person involved
+
+Activity			LAYING			Activity type
+				SITTING
+				STANDING
+				WALKING
+				WALKING_DOWNSTAIRS
+				WALKING_UPSTAIRS
+
+tBodyAcc-mean()-X		[-1,1]
+tBodyAcc-mean()-Y		[-1,1]
+tBodyAcc-mean()-Z		[-1,1]
+tBodyAcc-std()-X		[-1,1]
+tBodyAcc-std()-Y		[-1,1]
+tBodyAcc-std()-Z		[-1,1]
+tGravityAcc-mean()-X		[-1,1]
+tGravityAcc-mean()-Y		[-1,1]
+tGravityAcc-mean()-Z		[-1,1]
+tGravityAcc-std()-X		[-1,1]            
+tGravityAcc-std()-Y		[-1,1]
+tGravityAcc-std()-Z		[-1,1]
+tBodyAccJerk-mean()-X		[-1,1]
+tBodyAccJerk-mean()-Y		[-1,1]         
+tBodyAccJerk-mean()-Z		[-1,1]
+tBodyAccJerk-std()-X		[-1,1]           
+tBodyAccJerk-std()-Y		[-1,1]
+tBodyAccJerk-std()-Z		[-1,1]
+tBodyGyro-mean()-X		[-1,1]
+tBodyGyro-mean()-Y		[-1,1]             
+tBodyGyro-mean()-Z		[-1,1]
+tBodyGyro-std()-X		[-1,1]
+tBodyGyro-std()-Y		[-1,1]
+tBodyGyro-std()-Z		[-1,1]              
+tBodyGyroJerk-mean()-X		[-1,1]
+tBodyGyroJerk-mean()-Y		[-1,1]         
+tBodyGyroJerk-mean()-Z		[-1,1]
+tBodyGyroJerk-std()-X 		[-1,1]         
+tBodyGyroJerk-std()-Y		[-1,1]
+tBodyGyroJerk-std()-Z		[-1,1]          
+tBodyAccMag-mean()		[-1,1]
+tBodyAccMag-std()		[-1,1]              
+tGravityAccMag-mean()		[-1,1]
+tGravityAccMag-std()		[-1,1]
+tBodyAccJerkMag-mean()		[-1,1]
+tBodyAccJerkMag-std()		[-1,1]          
+tBodyGyroMag-mean()		[-1,1]
+tBodyGyroMag-std()		[-1,1]             
+tBodyGyroJerkMag-mean()		[-1,1]
+tBodyGyroJerkMag-std()		[-1,1]        
+fBodyAcc-mean()-X		[-1,1]
+fBodyAcc-mean()-Y		[-1,1]
+fBodyAcc-mean()-Z		[-1,1]
+fBodyAcc-std()-X 		[-1,1]              
+fBodyAcc-std()-Y		[-1,1]
+fBodyAcc-std()-Z		[-1,1]               
+fBodyAcc-meanFreq()-X		[-1,1]
+fBodyAcc-meanFreq()-Y		[-1,1]          
+fBodyAcc-meanFreq()-Z		[-1,1]
+fBodyAccJerk-mean()-X		[-1,1]          
+fBodyAccJerk-mean()-Y		[-1,1]
+fBodyAccJerk-mean()-Z		[-1,1]          
+fBodyAccJerk-std()-X		[-1,1]
+fBodyAccJerk-std()-Y		[-1,1]           
+fBodyAccJerk-std()-Z		[-1,1]
+fBodyAccJerk-meanFreq()-X	[-1,1]
+fBodyAccJerk-meanFreq()-Y	[-1,1]
+fBodyAccJerk-meanFreq()-Z	[-1,1]
+fBodyGyro-mean()-X		[-1,1]
+fBodyGyro-mean()-Y 		[-1,1]            
+fBodyGyro-mean()-Z		[-1,1]
+fBodyGyro-std()-X		[-1,1]              
+fBodyGyro-std()-Y		[-1,1]
+fBodyGyro-std()-Z		[-1,1]
+fBodyGyro-meanFreq()-X		[-1,1]
+fBodyGyro-meanFreq()-Y		[-1,1]         
+fBodyGyro-meanFreq()-Z		[-1,1]
+fBodyAccMag-mean()		[-1,1]
+fBodyAccMag-std()		[-1,1]
+fBodyAccMag-meanFreq()		[-1,1]
+fBodyBodyAccJerkMag-mean()	[-1,1]
+fBodyBodyAccJerkMag-std()	[-1,1]
+fBodyBodyAccJerkMag-meanFreq()	[-1,1]
+fBodyBodyGyroMag-mean()		[-1,1]
+fBodyBodyGyroMag-std()		[-1,1]
+fBodyBodyGyroMag-meanFreq()	[-1,1]
+fBodyBodyGyroJerkMag-mean()	[-1,1]
+fBodyBodyGyroJerkMag-std() 	[-1,1]    
+fBodyBodyGyroJerkMag-meanFreq()	[-1,1]
