@@ -67,16 +67,16 @@ First two columns stand for subject id and activity. Remaining cols stand for av
 CODE BOOK
 ---------------
 
-Subject.Id                      1...30                  Unique id for each person involved
+Subject.Id                      1...30                          Unique id for each person involved
 
-Activity                        LAYING                  Activity type
+Activity                        LAYING                          Activity type
                                 SITTING
                                 STANDING
                                 WALKING
                                 WALKING_DOWNSTAIRS
                                 WALKING_UPSTAIRS
 
-tBodyAcc-mean()-X		[-1,1]                          Mean Body Acceleration in X direction in time domain
+tBodyAcc-mean()-X               [-1,1]                          Mean Body Acceleration in X direction in time domain
 tBodyAcc-mean()-Y		[-1,1]                          Mean Body Acceleration in Y direction in time domain
 tBodyAcc-mean()-Z		[-1,1]                          Mean Body Acceleration in Z direction in time domain
 tBodyAcc-std()-X		[-1,1]                          Standard Deviation of Body Acceleration in X direction in time domain
