@@ -1,3 +1,6 @@
+General information:
+-----------------------
+
 After downloading and executing script (see readMe.md file for details) you will get result.txt file with processed and cleaned data set.
 The source data set is UCI HAR dataset. You need to place this dataset to your working directory in order to get the result.
 
