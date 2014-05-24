@@ -1,4 +1,4 @@
-GENERAL INFORMATION
+#GENERAL INFORMATION
 -----------------------
 
 After downloading and executing script (see readMe.md file for details) you will get result.txt file with processed and cleaned data set.
@@ -58,13 +58,13 @@ For more information about this dataset contact: activityrecognition@smartlab.ws
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
-DATA COLLECTION DESCRIPTION
+#DATA COLLECTION DESCRIPTION
 ---------------
 
 result.txt file contain 180 rows and 81 columns: each row coresponds to one person and one activity tipe.
 First two columns stand for subject id and activity. Remaining cols stand for average for 79 features.
 
-CODE BOOK
+#CODE BOOK
 ---------------
 
 Subject.Id                      1...30                          Unique id for each person involved
