@@ -67,14 +67,14 @@ First two columns stand for subject id and activity. Remaining cols stand for av
 CODE BOOK
 ---------------
 
-Subject.Id			1...30			Unique id for each person involved
+Subject.Id                      1...30                  Unique id for each person involved
 
-Activity			LAYING			Activity type
-				SITTING
-				STANDING
-				WALKING
-				WALKING_DOWNSTAIRS
-				WALKING_UPSTAIRS
+Activity                        LAYING                  Activity type
+                                SITTING
+                                STANDING
+                                WALKING
+                                WALKING_DOWNSTAIRS
+                                WALKING_UPSTAIRS
 
 tBodyAcc-mean()-X		[-1,1]
 
