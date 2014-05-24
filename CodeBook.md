@@ -66,8 +66,8 @@ First two columns stand for subject id and activity. Remaining cols stand for av
 
 #CODE BOOK
 ---------------
-Name                            Value                           Description
-S| Name                            | Value              | Description                                                           |
+
+| Name                            | Value              | Description                                                           |
 |---------------------------------|--------------------|-----------------------------------------------------------------------|
 | Subject.Id                      | 1...30             | Unique id for each person involved                                    |
 | Activit                         | LAYING             | Activity type                                                         |
