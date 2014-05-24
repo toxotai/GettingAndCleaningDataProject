@@ -153,3 +153,9 @@ fBodyBodyGyroMag-meanFreq()	[-1,1]
 fBodyBodyGyroJerkMag-mean()	[-1,1]
 fBodyBodyGyroJerkMag-std() 	[-1,1]
 fBodyBodyGyroJerkMag-meanFreq()	[-1,1]
+
+| fBodyBodyGyroMag-meanFreq()     | [-1,1] |   |   |   |
+|---------------------------------|--------|---|---|---|
+| fBodyBodyGyroJerkMag-mean()     | [-1,1] |   |   |   |
+| fBodyBodyGyroJerkMag-std()      | [-1,1] |   |   |   |
+| fBodyBodyGyroJerkMag-meanFreq() |        |   |   |   |
