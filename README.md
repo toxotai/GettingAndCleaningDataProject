@@ -1,6 +1,8 @@
 ##GettingAndCleaningDataProject
 ===============================
 
+To get result, you need to download run_analysis.R file to your working directory and run it under R console. IMPORTANT: you have to place UCI HAR Dataset directory to your working directory to run script without errors.
+
 The purpose of this project is to demonstrate my ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. I've submited:
 
  1) a tidy data set as described below,
