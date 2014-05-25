@@ -152,4 +152,4 @@ First two columns stand for subject id and activity. Remaining cols stand for av
 | fBodyGyroMag-meanFreq()     | [-1,1]             |  Mean Frequency of Body Gyroscope Magnitude                                                                     |
 | fBodyGyroJerkMag-mean()     | [-1,1]             |  Mean Body Gyroscope Jerk Magnitude in frequency domain                                                                     |
 | fyBodyGyroJerkMag-std()      | [-1,1]             | Standard Deviation of Body Gyroscope Jerk Magnitude in frequency domain                                                                      |
-| fBodyGyroJerkMag-meanFreq() | [-1,1]             | Mean Frequency Body Gyroscope Jerk Magnitude |
+| fBodyGyroJerkMag-meanFreq() | [-1,1]             | Mean Frequency of Body Gyroscope Jerk Magnitude |
