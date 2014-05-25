@@ -116,40 +116,40 @@ First two columns stand for subject id and activity. Remaining cols stand for av
 | tBodyGyroMag-std()              | [-1,1]             | Standard Deviation of Body Gyroscope Magnitude in time domain                                                                      |
 | tBodyGyroJerkMag-mean()         | [-1,1]             | Mean Body Gyroscope Jerk Magnitude in time domain                                                                      |
 | tBodyGyroJerkMag-std()          | [-1,1]             | Standard Deviation of Body Gyroscope Jerk Magnitude in time domain                                                                      |
-| fBodyAcc-mean()-X               | [-1,1]             | Mean Body Acceleration in X direction in time domain                                                                      |
-| fBodyAcc-mean()-Y               | [-1,1]             |                                                                       |
-| fBodyAcc-mean()-Z               | [-1,1]             |                                                                       |
-| fBodyAcc-std()-X                | [-1,1]             |                                                                       |
-| fBodyAcc-std()-Y                | [-1,1]             |                                                                       |
-| fBodyAcc-std()-Z                | [-1,1]             |                                                                       |
-| fBodyAcc-meanFreq()-X           | [-1,1]             |                                                                       |
-| fBodyAcc-meanFreq()-Y           | [-1,1]             |                                                                       |
-| fBodyAcc-meanFreq()-Z           | [-1,1]             |                                                                       |
-| fBodyAccJerk-mean()-X           | [-1,1]             |                                                                       |
-| fBodyAccJerk-mean()-Y           | [-1,1]             |                                                                       |
-| fBodyAccJerk-mean()-Z           | [-1,1]             |                                                                       |
-| fBodyAccJerk-std()-X            | [-1,1]             |                                                                       |
-| fBodyAccJerk-std()-Y            | [-1,1]             |                                                                       |
-| fBodyAccJerk-std()-Z            | [-1,1]             |                                                                       |
-| fBodyAccJerk-meanFreq()-X       | [-1,1]             |                                                                       |
-| fBodyAccJerk-meanFreq()-Y       | [-1,1]             |                                                                       |
-| fBodyAccJerk-meanFreq()-Z       | [-1,1]             |                                                                       |
-| fBodyGyro-mean()-X              | [-1,1]             |                                                                       |
-| fBodyGyro-mean()-Y              | [-1,1]             |                                                                       |
-| fBodyGyro-std()-X               | [-1,1]             |                                                                       |
-| fBodyGyro-std()-Y               | [-1,1]             |                                                                       |
-| fBodyGyro-std()-Z               | [-1,1]             |                                                                       |
-| fBodyGyro-meanFreq()-X          | [-1,1]             |                                                                       |
-| fBodyGyro-meanFreq()-Y          | [-1,1]             |                                                                       |
-| fBodyGyro-meanFreq()-Z          | [-1,1]             |                                                                       |
-| fBodyAccMag-mean()              | [-1,1]             |                                                                       |
-| fBodyAccMag-std()               | [-1,1]             |                                                                       |
-| fBodyAccMag-meanFreq()          | [-1,1]             |                                                                       |
-| fBodyBodyAccJerkMag-std()       | [-1,1]             |                                                                       |
-| fBodyBodyAccJerkMag-meanFreq()  | [-1,1]             |                                                                       |
-| fBodyBodyGyroMag-mean()         | [-1,1]             |                                                                       |
-| fBodyBodyGyroMag-std()          | [-1,1]             |                                                                       |
-| fBodyBodyGyroMag-meanFreq()     | [-1,1]             |                                                                       |
-| fBodyBodyGyroJerkMag-mean()     | [-1,1]             |                                                                       |
-| fBodyBodyGyroJerkMag-std()      | [-1,1]             |                                                                       |
-| fBodyBodyGyroJerkMag-meanFreq() | [-1,1]             |                      
+| fBodyAcc-mean()-X               | [-1,1]             | Mean Body Acceleration in X direction in frequency domain                               |
+| fBodyAcc-mean()-Y               | [-1,1]             | Mean Body Acceleration in Y direction in frequency domain                                                                      |
+| fBodyAcc-mean()-Z               | [-1,1]             | Mean Body Acceleration in Z direction in frequency domain                                                                      |
+| fBodyAcc-std()-X                | [-1,1]             | Standard Deviation of Body Acceleration in X direction in frequency domain                                                                      |
+| fBodyAcc-std()-Y                | [-1,1]             | Standard Deviation of Body Acceleration in Y direction in frequency domain                                                                      |
+| fBodyAcc-std()-Z                | [-1,1]             | Standard Deviation of Body Acceleration in Z direction in frequency domain                                                                      |
+| fBodyAcc-meanFreq()-X           | [-1,1]             | Mean Frequency of Body Acceleration in X direction                                                                      |
+| fBodyAcc-meanFreq()-Y           | [-1,1]             | Mean Frequency of Body Acceleration in Y direction                                                                      |
+| fBodyAcc-meanFreq()-Z           | [-1,1]             | Mean Frequency of Body Acceleration in Z direction                                                                      |
+| fBodyAccJerk-mean()-X           | [-1,1]             | Mean Body Acceleration Jerk in X direction in frequency domain                                                                      |
+| fBodyAccJerk-mean()-Y           | [-1,1]             | Mean Body Acceleration Jerk in Y direction in frequency domain                                                                      |
+| fBodyAccJerk-mean()-Z           | [-1,1]             | Mean Body Acceleration Jerk in Z direction in frequency domain                                                                      |
+| fBodyAccJerk-std()-X            | [-1,1]             | Standard Deviation of Body Acceleration Jerk in X direction in frequency domain                                                                      |
+| fBodyAccJerk-std()-Y            | [-1,1]             | Standard Deviation of Body Acceleration Jerk in Y direction in frequency domain                                                                      |
+| fBodyAccJerk-std()-Z            | [-1,1]             | Standard Deviation of Body Acceleration Jerk in Z direction in frequency domain                                                                      |
+| fBodyAccJerk-meanFreq()-X       | [-1,1]             | Mean Frequency of Body Acceleration Jerk in X direction                                                                      |
+| fBodyAccJerk-meanFreq()-Y       | [-1,1]             | Mean Frequency of Body Acceleration Jerk in Y direction                                                                      |
+| fBodyAccJerk-meanFreq()-Z       | [-1,1]             | Mean Frequency of Body Acceleration Jerk in Z direction                                                                      |
+| fBodyGyro-mean()-X              | [-1,1]             | Mean Body Gyroscope value in X direction in frequency domain                                                                      |
+| fBodyGyro-mean()-Y              | [-1,1]             | Mean Body Gyroscope value in Y direction in frequency domain                                                                      |
+| fBodyGyro-std()-X               | [-1,1]             | Standard Deviation of Body Gyroscope value in X direction in frequency domain                                                                      |
+| fBodyGyro-std()-Y               | [-1,1]             | Standard Deviation of Body Gyroscope value in Y direction in frequency domain                                                                      |
+| fBodyGyro-std()-Z               | [-1,1]             | Standard Deviation of Body Gyroscope value in Z direction in frequency domain                                                                      |
+| fBodyGyro-meanFreq()-X          | [-1,1]             | Mean Frequency of Body Gyroscope value in X direction                                                                      |
+| fBodyGyro-meanFreq()-Y          | [-1,1]             | Mean Frequency of Body Gyroscope value in Y direction                                                                      |
+| fBodyGyro-meanFreq()-Z          | [-1,1]             | Mean Frequency of Body Gyroscope value in Z direction                                                                      |
+| fBodyAccMag-mean()              | [-1,1]             | Mean Body Acceleration Magnitude in frequency domain                                                                      |
+| fBodyAccMag-std()               | [-1,1]             | Standard Deviation of Body Acceleration Magnitude in frequency domain                                                                      |
+| fBodyAccMag-meanFreq()          | [-1,1]             | Mean Frequency of Body Acceleration Magnitude                                                                      |
+| fBodyAccJerkMag-std()       | [-1,1]             |   Standard Deviation of Body Acceleration Jerk Magnitude in frequency domain                                                                    |
+| fBodyAccJerkMag-meanFreq()  | [-1,1]             |   Mean Frequency of Body Acceleration Jerk Magnitude                                                                    |
+| fBodyGyroMag-mean()         | [-1,1]             |  Mean Body Gyroscope Magnitude in frequency domain                                                                     |
+| fBodyGyroMag-std()          | [-1,1]             |  Standard Deviation of Body Gyroscope Magnitude in frequency domain                                                                     |
+| fBodyGyroMag-meanFreq()     | [-1,1]             |  Mean Frequency of Body Gyroscope Magnitude                                                                     |
+| fBodyGyroJerkMag-mean()     | [-1,1]             |  Mean Body Gyroscope Jerk Magnitude in frequency domain                                                                     |
+| fyBodyGyroJerkMag-std()      | [-1,1]             | Standard Deviation of Body Gyroscope Jerk Magnitude in frequency domain                                                                      |
+| fBodyGyroJerkMag-meanFreq() | [-1,1]             | Mean Frequency Body Gyroscope Jerk Magnitude |
