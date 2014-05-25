@@ -88,35 +88,35 @@ First two columns stand for subject id and activity. Remaining cols stand for av
 | tGravityAcc-std()-X             | [-1,1]             | Standard Deviation of Gravity Acceleration in X direction in time domain               |                                                                      |
 | tGravityAcc-std()-Y             | [-1,1]             | Standard Deviation of Gravity Acceleration in Y direction in time domain                                                                      |
 | tGravityAcc-std()-Z             | [-1,1]             | Standard Deviation of Gravity Acceleration in Z direction in time domain                                                                      |
-| tBodyAccJerk-mean()-X           | [-1,1]             | Mean Body Acceleration Jerk in X direction in time domain                                                                      |
-| tBodyAccJerk-mean()-Y           | [-1,1]             | Mean Body Acceleration Jerk in Y direction in time domain                                                                      |
-| tBodyAccJerk-mean()-Z           | [-1,1]             | Mean Body Acceleration Jerk in Z direction in time domain                                                                      |
+| tBodyAccJerk-mean()-X           | [-1,1]             | Mean Body Acceleration Jerk in X direction in time domain             |
+| tBodyAccJerk-mean()-Y           | [-1,1]             | Mean Body Acceleration Jerk in Y direction in time domain                              |
+| tBodyAccJerk-mean()-Z           | [-1,1]             | Mean Body Acceleration Jerk in Z direction in time domain                               |
 | tBodyAccJerk-std()-X            | [-1,1]             | Standard Deviation of Body Acceleration Jerk in X direction in time domain                                                                      |
 | tBodyAccJerk-std()-Y            | [-1,1]             | Standard Deviation of Body Acceleration Jerk in Y direction in time domain                                                                      |
 | tBodyAccJerk-std()-Z            | [-1,1]             | Standard Deviation of Body Acceleration Jerk in Z direction in time domain                                                                      |
-| tBodyGyro-mean()-X              | [-1,1]             | Mean Body Acceleration by the gyroscope in X direction in time domain                                                                     |
-| tBodyGyro-mean()-Y              | [-1,1]             | Mean Body Acceleration by the gyroscope in Y direction in time domain                                                                      |
-| tBodyGyro-mean()-Z              | [-1,1]             | Mean Body Acceleration by the gyroscope in Z direction in time domain                                                                      |
-| tBodyGyro-std()-X               | [-1,1]             | Standard Deviation of Body Acceleration by the gyroscope in X direction in time domain                                                                      |
-| tBodyGyro-std()-Y               | [-1,1]             | Standard Deviation of Body Acceleration by the gyroscope in Y direction in time domain                                                                       |
-| tBodyGyro-std()-Z               | [-1,1]             | Standard Deviation of Body Acceleration by the gyroscope in Z direction in time domain                                                                      |
-| tBodyGyroJerk-mean()-X          | [-1,1]             | Mean Body Acceleration Jerk by the gyroscope in X direction in time domain                                                                      |
-| tBodyGyroJerk-mean()-Y          | [-1,1]             | Mean Body Acceleration Jerk by the gyroscope in Y direction in time domain                                                                      |
-| tBodyGyroJerk-mean()-Z          | [-1,1]             | Mean Body Acceleration Jerk by the gyroscope in Z direction in time domain                                                                      |
-| tBodyGyroJerk-std()-X           | [-1,1]             | Standard Deviation of Body Acceleration Jerk by the gyroscope in X direction in time domain                                                                      |
-| tBodyGyroJerk-std()-Y           | [-1,1]             | Standard Deviation of Body Acceleration Jerk by the gyroscope in Y direction in time domain                                                                      |
-| tBodyGyroJerk-std()-Z           | [-1,1]             | Standard Deviation of Body Acceleration Jerk by the gyroscope in Z direction in time domain                                                                      |
-| tBodyAccMag-mean()              | [-1,1]             |                                                                       |
-| tBodyAccMag-std()               | [-1,1]             |                                                                       |
-| tGravityAccMag-mean()           | [-1,1]             |                                                                       |
-| tGravityAccMag-std()            | [-1,1]             |                                                                       |
-| tBodyAccJerkMag-mean()          | [-1,1]             |                                                                       |
-| tBodyAccJerkMag-std()           | [-1,1]             |                                                                       |
-| tBodyGyroMag-mean()             | [-1,1]             |                                                                       |
-| tBodyGyroMag-std()              | [-1,1]             |                                                                       |
-| tBodyGyroJerkMag-mean()         | [-1,1]             |                                                                       |
-| tBodyGyroJerkMag-std()          | [-1,1]             |                                                                       |
-| fBodyAcc-mean()-X               | [-1,1]             |                                                                       |
+| tBodyGyro-mean()-X              | [-1,1]             | Mean Body Gyroscope value in X direction in time domain                            |
+| tBodyGyro-mean()-Y              | [-1,1]             | Mean Body Gyroscope value in Y direction in time domain                             |
+| tBodyGyro-mean()-Z              | [-1,1]             | Mean Body Gyroscope value in Z direction in time domain                             |
+| tBodyGyro-std()-X               | [-1,1]             | Standard Deviation of Body Gyroscope value in X direction in time domain                                                                      |
+| tBodyGyro-std()-Y               | [-1,1]             | Standard Deviation of Body Gyroscope value in Y direction in time domain                                                                       |
+| tBodyGyro-std()-Z               | [-1,1]             | Standard Deviation of Body Gyroscope value in Z direction in time domain                                                                      |
+| tBodyGyroJerk-mean()-X          | [-1,1]             | Mean Body Gyroscope value Jerk in X direction in time domain                                  |
+| tBodyGyroJerk-mean()-Y          | [-1,1]             | Mean Body Gyroscope value Jerk in Y direction in time domain                                  |
+| tBodyGyroJerk-mean()-Z          | [-1,1]             | Mean Body Gyroscope value Jerk in Z direction in time domain                                  |
+| tBodyGyroJerk-std()-X           | [-1,1]             | Standard Deviation of Body Gyroscope value Jerk in X direction in time domain                                                                      |
+| tBodyGyroJerk-std()-Y           | [-1,1]             | Standard Deviation of Body Gyroscope value Jerk in Y direction in time domain                                                                      |
+| tBodyGyroJerk-std()-Z           | [-1,1]             | Standard Deviation of Body Gyroscope value Jerk in Z direction in time domain                                                                      |
+| tBodyAccMag-mean()              | [-1,1]             | Mean Body Acceleration Magnitude in time domain                     |
+| tBodyAccMag-std()               | [-1,1]             | Standard Deviation of Body Acceleration Magnitude in time domain    |
+| tGravityAccMag-mean()           | [-1,1]             | Mean Gravity Acceleration Magnitude in time domain                                      |
+| tGravityAccMag-std()            | [-1,1]             | Standard Deviation of Gravity Acceleration Magnitude in time domain          |
+| tBodyAccJerkMag-mean()          | [-1,1]             | Mean Body Acceleration Jerk Magnitude in time domain                                         |
+| tBodyAccJerkMag-std()           | [-1,1]             | Standard Deviation of Body Acceleration Jerk Magnitude in time domain                                                                      |
+| tBodyGyroMag-mean()             | [-1,1]             | Mean Body Gyroscope Magnitude in time domain                      |
+| tBodyGyroMag-std()              | [-1,1]             | Standard Deviation of Body Gyroscope Magnitude in time domain                                                                      |
+| tBodyGyroJerkMag-mean()         | [-1,1]             | Mean Body Gyroscope Jerk Magnitude in time domain                                                                      |
+| tBodyGyroJerkMag-std()          | [-1,1]             | Standard Deviation of Body Gyroscope Jerk Magnitude in time domain                                                                      |
+| fBodyAcc-mean()-X               | [-1,1]             | Mean Body Acceleration in X direction in time domain                                                                      |
 | fBodyAcc-mean()-Y               | [-1,1]             |                                                                       |
 | fBodyAcc-mean()-Z               | [-1,1]             |                                                                       |
 | fBodyAcc-std()-X                | [-1,1]             |                                                                       |
