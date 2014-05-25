@@ -85,7 +85,7 @@ First two columns stand for subject id and activity. Remaining cols stand for av
 | tGravityAcc-mean()-X            | [-1,1]             | Mean Gravity Acceleration in X direction in time domain               |
 | tGravityAcc-mean()-Y            | [-1,1]             | Mean Gravity Acceleration in Y direction in time domain               |
 | tGravityAcc-mean()-Z            | [-1,1]             | Mean Gravity Acceleration in Z direction in time domain               |
-| tGravityAcc-std()-X             | [-1,1]             |                                                                       |
+| tGravityAcc-std()-X             | [-1,1]             | Standard Deviation of Gravity Acceleration in X direction in time domain               |                                                                      |
 | tGravityAcc-std()-Y             | [-1,1]             |                                                                       |
 | tGravityAcc-std()-Z             | [-1,1]             |                                                                       |
 | tBodyAccJerk-mean()-X           | [-1,1]             |                                                                       |
